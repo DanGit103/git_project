@@ -16,6 +16,8 @@ def main():
     df2.show()
 
     print("Row count:", df2.count())
+    
+    df2.printSchema()
 
     spark.stop()
 
